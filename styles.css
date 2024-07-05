@@ -1,0 +1,70 @@
+/* 기본 interface(1) */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+/* Frame 1 */
+#frame1 {
+    position: relative;
+    width: 800px;
+    height: 480px;
+    background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+}
+
+/* Rectangle 656 */
+#rectangle656 {
+    position: absolute;
+    width: 800px;
+    height: 480px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Ellipse 1 */
+#ellipse1 {
+    position: absolute;
+    width: 427.5px;
+    height: 100px;
+    left: 186px;
+    top: 140px;
+    background: #5F33E1;
+    border-radius: 50%;
+}
+
+/* Ellipse 2 */
+#ellipse2 {
+    position: absolute;
+    width: 140px;
+    height: 56px;
+    left: 330px;
+    top: 276px;
+    background: #5F33E1;
+    border-radius: 50%;
+}
+
+/* 배송 출발 버튼 */
+#start-delivery {
+    position: absolute;
+    width: 340px;
+    height: 52px;
+    left: calc(50% - 170px);
+    top: calc(50% - 26px + 184px);
+    background: #5F33E1;
+    border: none;
+    border-radius: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
