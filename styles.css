@@ -1,70 +1,987 @@
-/* 기본 interface(1) */
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FFFFFF;
-}
+/* 10. 집으로 가는 중 */
 
-/* Frame 1 */
-#frame1 {
-    position: relative;
-    width: 800px;
-    height: 480px;
-}
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
 
 /* Rectangle 656 */
-#rectangle656 {
-    position: absolute;
-    width: 800px;
-    height: 480px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
-}
 
-/* Ellipse 1 */
-#ellipse1 {
-    position: absolute;
-    width: 427.5px;
-    height: 100px;
-    left: 186px;
-    top: 140px;
-    background: #5F33E1;
-    border-radius: 50px / 12.5px;
-}
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* 배송 끝! 퇴근 중입니다 :) */
+
+position: absolute;
+width: 302px;
+height: 32px;
+left: calc(50% - 302px/2 + 1px);
+top: calc(50% - 32px/2 + 175px);
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* face_duldul(찡긋) */
+
+position: absolute;
+width: 427.5px;
+height: 167.5px;
+left: 187px;
+top: 164.5px;
+
+
 
 /* Ellipse 2 */
-#ellipse2 {
-    position: absolute;
-    width: 140px;
-    height: 56px;
-    left: 330px;
-    top: 276px;
-    background: #5F33E1;
-    border-radius: 50px / 25px;
-}
 
-/* 배송 출발 버튼 */
-#start-delivery {
-    position: absolute;
-    width: 340px;
-    height: 52px;
-    left: calc(50% - 170px);
-    top: calc(50% - 26px + 184px);
-    background: #5F33E1;
-    border: none;
-    border-radius: 14px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
-}
+position: absolute;
+width: 140px;
+height: 56px;
+left: 331px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 62.27px;
+left: 187px;
+top: 164.5px;
+
+background: #0D47A1;
+
+
+/* 9. 집으로 가는 중 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* 배송 끝! 퇴근하겠습니다 :) */
+
+position: absolute;
+width: 302px;
+height: 32px;
+left: calc(50% - 302px/2 + 1px);
+top: calc(50% - 32px/2 + 175px);
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* face_duldul(찡긋) */
+
+position: absolute;
+width: 427.5px;
+height: 167.5px;
+left: 187px;
+top: 164.5px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 331px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 62.27px;
+left: 187px;
+top: 164.5px;
+
+background: #0D47A1;
+
+
+/* 8. 제자리로 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* Rectangle 657 */
+
+position: absolute;
+width: 340px;
+height: 52px;
+left: calc(50% - 340px/2);
+top: calc(50% - 52px/2 + 184px);
+
+background: #0D47A1;
+border-radius: 14px;
+
+
+/* 집으로 보내기 */
+
+position: absolute;
+width: 114px;
+height: 24px;
+left: calc(50% - 114px/2);
+top: calc(50% - 24px/2 + 184px);
+
+/* Lexend Deca/Semi Bold/19px */
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* duldul_face(기본) */
+
+position: absolute;
+width: 428px;
+height: 192px;
+left: 186px;
+top: 144px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.64%;
+right: 33.64%;
+top: 70.83%;
+bottom: 0%;
+
+background: #0D47A1;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 76.64%;
+top: 0%;
+bottom: 47.92%;
+
+background: #5F33E1;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 76.64%;
+top: 0%;
+bottom: 47.92%;
+
+background: #0D47A1;
+
+
+/* Vector */
+
+position: absolute;
+left: 76.52%;
+right: 0.12%;
+top: 0%;
+bottom: 47.92%;
+
+background: #0D47A1;
+
+
+/* 7. 얼굴 인식 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* Rectangle 657 */
+
+position: absolute;
+width: 706px;
+height: 336px;
+left: 47px;
+top: 51px;
+
+background: #D9D9D9;
+
+
+/* 송장을 하나씩 인식해주세요 */
+
+position: absolute;
+width: 342px;
+height: 33px;
+left: calc(50% - 342px/2);
+top: calc(50% - 33px/2 + 187.5px);
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* 6. 배송지 도착 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* duldul_face(기본) */
+
+position: absolute;
+width: 427.5px;
+height: 192px;
+left: 186px;
+top: 140px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 330px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 100px;
+left: 186px;
+top: 140px;
+
+background: #0D47A1;
+
+
+/* 배송이용시작 버튼 */
+
+position: absolute;
+width: 340px;
+height: 52px;
+left: 230px;
+top: 398px;
+
+
+
+/* Rectangle 657 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0D47A1;
+border-radius: 14px;
+
+
+/* 배송을 이용하려면 터치해주세요! */
+
+position: absolute;
+left: 9.12%;
+right: 9.12%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Lexend Deca/Semi Bold/19px */
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* 5. 배송 중 화면 3 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* duldul_face(기본) */
+
+position: absolute;
+width: 427.5px;
+height: 192px;
+left: 186px;
+top: 140px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 330px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 100px;
+left: 186px;
+top: 140px;
+
+background: #0D47A1;
+
+
+/* 덜덜이가 최적의 경로로 배송중이예요! */
+
+position: absolute;
+width: 394px;
+height: 32px;
+left: calc(50% - 394px/2 + 1px);
+top: calc(50% - 32px/2 + 174px);
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* 5. 배송 중 화면 2 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* duldul_face(기본) */
+
+position: absolute;
+width: 427.5px;
+height: 192px;
+left: 186px;
+top: 140px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 330px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 100px;
+left: 186px;
+top: 140px;
+
+background: #0D47A1;
+
+
+/* 배송 중이니 비켜주시면 좋겠어요 :) */
+
+position: absolute;
+width: 394px;
+height: 32px;
+left: calc(50% - 394px/2 + 1px);
+top: calc(50% - 32px/2 + 174px);
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* 5. 배송 중 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 600 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 1px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* face_duldul(찡긋) */
+
+position: absolute;
+width: 427.5px;
+height: 192px;
+left: 187px;
+top: 140px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 331px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 100px;
+left: 187px;
+top: 140px;
+
+background: #0D47A1;
+
+
+/* 덜덜이가 최적의 경로로 배송중이예요! */
+
+position: absolute;
+width: 394px;
+height: 32px;
+left: calc(50% - 394px/2 + 1px);
+top: calc(50% - 32px/2 + 174px);
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* 5. 배송을 시작합니다 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* 배송 출발 */
+
+position: absolute;
+width: 114px;
+height: 24px;
+left: calc(50% - 114px/2);
+top: calc(50% - 24px/2 + 184px);
+
+/* Lexend Deca/Semi Bold/19px */
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 600 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 1px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* face_duldul(찡긋) */
+
+position: absolute;
+width: 427.5px;
+height: 192px;
+left: 187px;
+top: 140px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 331px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 100px;
+left: 187px;
+top: 140px;
+
+background: #0D47A1;
+
+
+/* 덜덜이가 배송을 시작합니다! */
+
+position: absolute;
+width: 302px;
+height: 32px;
+left: calc(50% - 302px/2 + 1px);
+top: calc(50% - 32px/2 + 175px);
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* 4. 배송 시작 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* 배송 시작 버튼 */
+
+position: absolute;
+width: 340px;
+height: 52px;
+left: 230px;
+top: 398px;
+
+
+
+/* Rectangle 657 */
+
+position: absolute;
+width: 340px;
+height: 52px;
+left: calc(50% - 340px/2);
+top: calc(50% - 52px/2 + 184px);
+
+background: #0D47A1;
+border-radius: 14px;
+
+
+/* 배송 시작 */
+
+position: absolute;
+width: 114px;
+height: 24px;
+left: calc(50% - 114px/2);
+top: calc(50% - 24px/2 + 184px);
+
+/* Lexend Deca/Semi Bold/19px */
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* duldul_face(기본) */
+
+position: absolute;
+width: 427.5px;
+height: 192px;
+left: 186px;
+top: 140px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 330px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 100px;
+left: 186px;
+top: 140px;
+
+background: #0D47A1;
+
+
+/* 3. 송장인식 완료 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+
+
+/* 배경 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* 송장을 하나씩 인식해주세요 */
+
+position: absolute;
+width: 342px;
+height: 33px;
+left: calc(50% - 342px/2);
+top: calc(50% - 33px/2 + 188.5px);
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* Rectangle 657 */
+
+position: absolute;
+width: 706px;
+height: 336px;
+left: 47px;
+top: 41px;
+
+background: #D9D9D9;
+
+
+/* 2. 송장 인식 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+
+
+/* 배경 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* 송장을 하나씩 인식해주세요 */
+
+position: absolute;
+width: 342px;
+height: 33px;
+left: calc(50% - 342px/2);
+top: calc(50% - 33px/2 + 188.5px);
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+
+color: #0D47A1;
+
+
+
+/* Rectangle 657 */
+
+position: absolute;
+width: 706px;
+height: 336px;
+left: 47px;
+top: 41px;
+
+background: #D9D9D9;
+
+
+/* 1. 이용시작 화면 */
+
+position: relative;
+width: 800px;
+height: 480px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 656 */
+
+position: absolute;
+width: 800px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(133.9deg, #F3F0FF 0%, #F0FBFF 100%);
+
+
+/* 배송이용시작 버튼 */
+
+position: absolute;
+width: 340px;
+height: 52px;
+left: 230px;
+top: 398px;
+
+
+
+/* Rectangle 657 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0D47A1;
+border-radius: 14px;
+
+
+/* 배송을 이용하려면 터치해주세요! */
+
+position: absolute;
+left: 9.12%;
+right: 9.12%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Lexend Deca/Semi Bold/19px */
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* duldul_face(기본) */
+
+position: absolute;
+width: 427.5px;
+height: 192px;
+left: 186px;
+top: 140px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 140px;
+height: 56px;
+left: 330px;
+top: 276px;
+
+background: #0D47A1;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 427.5px;
+height: 100px;
+left: 186px;
+top: 140px;
+
+background: #0D47A1;
